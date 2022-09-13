@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         nunutv
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  remove ad
 // @author       rindy
 // @match        https://www.nunuyy2.org/*/*
@@ -12,5 +12,5 @@
 (function() {
     'use strict';
 
-    document.head.insertAdjacentHTML('beforeend', `<style>dvszm{display:none}</style>`)
+    document.head.insertAdjacentHTML('beforeend', `<style>[classname]{display:none}</style>`)
 })();
